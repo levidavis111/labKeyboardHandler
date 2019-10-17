@@ -13,6 +13,7 @@
 		FC3048512358E80B002A343E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC30484F2358E80B002A343E /* Main.storyboard */; };
 		FC3048532358E80D002A343E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3048522358E80D002A343E /* Assets.xcassets */; };
 		FC3048562358E80D002A343E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3048542358E80D002A343E /* LaunchScreen.storyboard */; };
+		FC30485E2358ED1A002A343E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC30485D2358ED1A002A343E /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FC3048522358E80D002A343E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC3048552358E80D002A343E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC3048572358E80D002A343E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC30485D2358ED1A002A343E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				FC3048492358E80B002A343E /* AppDelegate.swift */,
 				FC30484B2358E80B002A343E /* SceneDelegate.swift */,
 				FC30484D2358E80B002A343E /* ViewController.swift */,
+				FC30485D2358ED1A002A343E /* LoginViewController.swift */,
 				FC30484F2358E80B002A343E /* Main.storyboard */,
 				FC3048522358E80D002A343E /* Assets.xcassets */,
 				FC3048542358E80D002A343E /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC30485E2358ED1A002A343E /* LoginViewController.swift in Sources */,
 				FC30484E2358E80B002A343E /* ViewController.swift in Sources */,
 				FC30484A2358E80B002A343E /* AppDelegate.swift in Sources */,
 				FC30484C2358E80B002A343E /* SceneDelegate.swift in Sources */,
